@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Couleurs de base - Mode Sombre -->
+    <color name="primary">#1C3D5A</color>
+    <color name="primary_dark">#15304A</color>
+    <color name="primary_light">#3A9AD9</color>
+    <color name="secondary">#3A9AD9</color>
+    <color name="accent">#E34A4A</color>
+    <color name="background">#121212</color>
+    <color name="divider">#3A3A3A</color>
+    
+    <!-- Couleurs de texte - Mode Sombre -->
+    <color name="primary_text">#E6E6E6</color>
+    <color name="secondary_text">#B0B0B0</color>
+    
+    <!-- Couleurs supplémentaires -->
+    <color name="card_background">#212121</color>
+</resources> 

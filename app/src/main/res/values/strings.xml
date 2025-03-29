@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dzair Discoveries</string>
+    <string name="app_description"><b>Dzair Discoveries</b> is your ultimate gateway to exploring the heart and soul of Algeria. Immerse yourself in a rich blend of ancient history, vibrant culture, and breathtaking landscapes - from the bustling streets of Algiers to the serene beauty of the Sahara. Our intuitive guide app offers curated itineraries, interactive maps, and insider tips on local cuisine, festivals, and hidden gems, ensuring you experience the authentic charm of every destination. Whether you\'re planning a quick getaway or an in-depth cultural journey, <b>Dzair Discoveries</b> is your essential companion for uncovering the wonders of Algeria.</string>
+    <string name="students_title">Developed by:</string>
+    <string name="students_list">HADI TOUDER\nTHAMER NIATI\nMARIA TEBIB</string>
+    
+    <!-- Bottom Navigation Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- New strings for updated UI -->
+    <string name="featured_sites">Featured Sites</string>
+    <string name="our_team">Our Team</string>
+    <string name="team_members">Student 1\nStudent 2\nStudent 3</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="explore_algeria">Explorer les Wilayas</string>
+    <string name="explore_subtitle">Découvrez les merveilleuses régions d\'Algérie</string>
+    <string name="discover_places">Discover Places</string>
+    <string name="filter_all">ALL</string>
+    <string name="filter_attractions">🏛 Tourist Attractions</string>
+    <string name="filter_hotels">🏨 Hotels &amp; Restaurants</string>
+    <string name="filter_parks">🌳 Parks &amp; Gardens</string>
+    <string name="about_section">About</string>
+    <string name="places_to_visit">Places to Visit</string>
+    
+    <!-- Site Detail Strings -->
+    <string name="site_image_description">Site image</string>
+    <string name="back_button">Back button</string>
+    <string name="description_title">Description</string>
+    <string name="contact_info_title">Contact Information</string>
+    <string name="address_icon">Address icon</string>
+    <string name="address_title">Address</string>
+    <string name="call_button">Call</string>
+    <string name="email_button">Email</string>
+    <string name="map_button">Map</string>
+    <string name="no_phone_app">No phone app found</string>
+    <string name="no_email_app">No email app found</string>
+    <string name="call_permission_denied">Call permission was denied</string>
+    <string name="call_failed">Call failed</string>
+    <string name="email_failed">Email failed</string>
+    <string name="map_failed">Cannot open map</string>
+    <string name="email_chooser_title">Send email using...</string>
+    
+    <!-- Settings strings -->
+    <string name="settings_title">Settings</string>
+    <string name="language_title">Language</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="theme_title">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="about_app">About App</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="app_signature">Algerian Tourist Guide</string>
+</resources>

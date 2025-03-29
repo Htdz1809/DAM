@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dzair Discoveries</string>
+    <string name="app_description">تعتبر <b>Dzair Discoveries</b> بوابتك المثالية لاستكشاف قلب وروح الجزائر. انغمس في مزيج غني من التاريخ القديم والثقافة النابضة بالحياة والمناظر الطبيعية الخلابة - من شوارع الجزائر العاصمة الصاخبة إلى جمال الصحراء الهادئ. يقدم تطبيق الدليل الحدسي خاصتنا مسارات مخصصة وخرائط تفاعلية ونصائح من الداخل حول المأكولات المحلية والمهرجانات والكنوز المخفية، مما يضمن تجربتك للسحر الأصيل لكل وجهة. سواء كنت تخطط لرحلة سريعة أو رحلة ثقافية متعمقة، فإن <b>Dzair Discoveries</b> هي رفيقك الأساسي لاكتشاف عجائب الجزائر.</string>
+    <string name="students_title">تم تطويره بواسطة:</string>
+    <string name="students_list">هادي تودرت\nثامر نياتي\nماريا طبيب</string>
+    
+    <!-- Bottom Navigation Menu -->
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_explore">استكشاف</string>
+    <string name="menu_settings">الإعدادات</string>
+    
+    <!-- New strings for updated UI -->
+    <string name="featured_sites">المواقع المميزة</string>
+    <string name="our_team">فريقنا</string>
+    <string name="team_members">الطالب ١\nالطالب ٢\nالطالب ٣</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="explore_algeria">استكشاف الولايات</string>
+    <string name="explore_subtitle">اكتشف المناطق الرائعة في الجزائر</string>
+    <string name="discover_places">اكتشف الأماكن</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_attractions">🏛 المعالم السياحية</string>
+    <string name="filter_hotels">🏨 الفنادق والمطاعم</string>
+    <string name="filter_parks">🌳 الحدائق والمنتزهات</string>
+    <string name="about_section">حول</string>
+    <string name="places_to_visit">أماكن للزيارة</string>
+    
+    <!-- Site Detail Strings -->
+    <string name="site_image_description">صورة الموقع</string>
+    <string name="back_button">زر العودة</string>
+    <string name="description_title">وصف</string>
+    <string name="contact_info_title">معلومات الاتصال</string>
+    <string name="address_icon">أيقونة العنوان</string>
+    <string name="address_title">العنوان</string>
+    <string name="call_button">اتصال</string>
+    <string name="email_button">بريد</string>
+    <string name="map_button">خريطة</string>
+    <string name="no_phone_app">لم يتم العثور على تطبيق هاتف</string>
+    <string name="no_email_app">لم يتم العثور على تطبيق بريد إلكتروني</string>
+    <string name="call_permission_denied">تم رفض إذن الاتصال</string>
+    <string name="call_failed">فشل الاتصال</string>
+    <string name="email_failed">فشل البريد الإلكتروني</string>
+    <string name="map_failed">لا يمكن فتح الخريطة</string>
+    <string name="email_chooser_title">إرسال بريد إلكتروني باستخدام...</string>
+    
+    <!-- Settings strings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="language_title">اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="theme_title">المظهر</string>
+    <string name="dark_mode">الوضع المظلم</string>
+    <string name="about_app">حول التطبيق</string>
+    <string name="version">الإصدار 1.0.0</string>
+    <string name="app_signature">دليل سياحي جزائري</string>
+</resources> 
