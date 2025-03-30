@@ -53,4 +53,124 @@
     <string name="about_app">حول التطبيق</string>
     <string name="version">الإصدار 1.0.0</string>
     <string name="app_signature">دليل سياحي جزائري</string>
+
+    <!-- Tourist Sites - Algiers -->
+    <string name="casbah_name">قصبة الجزائر</string>
+    <string name="casbah_description">حي تاريخي بأزقة ضيقة وهندسة عثمانية، مدرج ضمن قائمة التراث العالمي لليونسكو.</string>
+    <string name="casbah_address">القصبة، الجزائر، الجزائر</string>
+    <string name="casbah_phone">+213 21 98 76 54</string>
+    <string name="casbah_email">casbah@tourism.dz</string>
+
+    <string name="basilica_name">كاتدرائية السيدة الإفريقية</string>
+    <string name="basilica_description">كنيسة من القرن التاسع عشر تطل على خليج الجزائر بمنظر بانورامي رائع.</string>
+    <string name="basilica_address">شارع زيغارة، الجزائر، الجزائر</string>
+    <string name="basilica_phone">+213 21 21 54 90</string>
+    <string name="basilica_email">basilica@tourism.dz</string>
+
+    <string name="great_mosque_name">المسجد الأعظم</string>
+    <string name="great_mosque_description">ثالث أكبر مسجد في العالم، يحتوي على أطول مئذنة (265 م) وتصميم معماري حديث.</string>
+    <string name="great_mosque_address">المحمدية، الجزائر، الجزائر</string>
+    <string name="great_mosque_phone">+213 21 30 82 55</string>
+    <string name="great_mosque_email">greatmosque@tourism.dz</string>
+
+    <string name="sofitel_name">فندق سوفيتيل الجزائر حديقة الحامة</string>
+    <string name="sofitel_description">فندق فاخر من فئة 5 نجوم بجوار الحديقة النباتية.</string>
+    <string name="sofitel_address">172، شارع حسيبة بن بوعلي، الجزائر، الجزائر</string>
+    <string name="sofitel_phone">+213 21 68 52 10</string>
+    <string name="sofitel_email">reservations@sofitel-algiers.com</string>
+
+    <string name="aurassi_name">فندق الأوراسي</string>
+    <string name="aurassi_description">فندق فاخر يطل على الخليج، يضم عدة مطاعم.</string>
+    <string name="aurassi_address">2، شارع فرانتز فانون، الجزائر، الجزائر</string>
+    <string name="aurassi_phone">+213 21 74 82 52</string>
+    <string name="aurassi_email">contact@elaurassi.com</string>
+
+    <string name="az_hotel_name">فندق AZ كوبّا</string>
+    <string name="az_hotel_description">فندق عصري من فئة 4 نجوم في كوبّا، يقدم مأكولات عالمية.</string>
+    <string name="az_hotel_address">شارع محمد رابيا، كوبّا، الجزائر، الجزائر</string>
+    <string name="az_hotel_phone">+213 23 75 70 70</string>
+    <string name="az_hotel_email">reservation@azhotel.dz</string>
+
+    <string name="tantra_name">مطعم التانترا</string>
+    <string name="tantra_description">مطعم أنيق يقدم مزيجًا من الأطباق المحلية والعالمية.</string>
+    <string name="tantra_address">36، شارع محمد خودي، المرادية، الجزائر، الجزائر</string>
+    <string name="tantra_phone">+213 21 69 20 20</string>
+    <string name="tantra_email">reservations@tantra.dz</string>
+
+    <string name="signature_name">مطعم سيجنتشر</string>
+    <string name="signature_description">مطعم راقٍ يشتهر بمأكولاته الفاخرة وديكوره الأنيق.</string>
+    <string name="signature_address">فال د\'حيدرة، الجزائر، الجزائر</string>
+    <string name="signature_phone">+213 21 60 37 73</string>
+    <string name="signature_email">info@signature-restaurant.dz</string>
+
+    <string name="hamma_garden_name">حديقة التجارب الحامة</string>
+    <string name="hamma_garden_description">حديقة نباتية شهيرة تضم نباتات متنوعة، مثالية للنزهات.</string>
+    <string name="hamma_garden_address">شارع حسيبة بن بوعلي، الجزائر، الجزائر</string>
+    <string name="hamma_garden_phone">+213 21 77 14 64</string>
+    <string name="hamma_garden_email">contact@jardin-essai.dz</string>
+
+    <string name="liberte_park_name">منتزه الحرية</string>
+    <string name="liberte_park_description">منتزه هادئ وسط المدينة، مثالي للاسترخاء.</string>
+    <string name="liberte_park_address">شارع ديدوش مراد، الجزائر، الجزائر</string>
+    <string name="liberte_park_phone">+213 21 63 05 97</string>
+    <string name="liberte_park_email">info@parc-liberte.dz</string>
+
+    <string name="dounia_park_name">حديقة الدنيا</string>
+    <string name="dounia_park_description">حديقة واسعة تضم مناطق ترفيهية وأماكن لعب للأطفال ومسارات للمشي.</string>
+    <string name="dounia_park_address">الشراقة، الجزائر، الجزائر</string>
+    <string name="dounia_park_phone">+213 21 36 12 05</string>
+    <string name="dounia_park_email">contact@dounia-park.dz</string>
+
+    <string name="other_wilayas_message">حاليًا فقط مواقع الجزائر العاصمة متاحة في هذا العرض التجريبي</string>
+
+    <!-- Wilaya Names and Descriptions -->
+    <string name="wilaya_algiers">Algiers</string>
+    <string name="wilaya_algiers_ar">الجزائر</string>
+    <string name="wilaya_algiers_desc_en">The capital city of Algeria, known for its rich history, Mediterranean coastline, and vibrant culture.</string>
+    <string name="wilaya_algiers_desc_ar">عاصمة الجزائر، تشتهر بتاريخها الغني وساحلها المتوسطي وثقافتها النابضة بالحياة.</string>
+
+    <string name="wilaya_oran">Oran</string>
+    <string name="wilaya_oran_ar">وهران</string>
+    <string name="wilaya_oran_desc_en">A major port city with a rich cultural heritage and beautiful Mediterranean architecture.</string>
+    <string name="wilaya_oran_desc_ar">مدينة مينائية كبرى تتميز بتراث ثقافي غني وعمارة متوسطية جميلة.</string>
+
+    <string name="wilaya_constantine">Constantine</string>
+    <string name="wilaya_constantine_ar">قسنطينة</string>
+    <string name="wilaya_constantine_desc_en">Known as the City of Bridges, featuring dramatic cliffs and historic architecture.</string>
+    <string name="wilaya_constantine_desc_ar">المعروفة باسم مدينة الجسور، تتميز بمنحدرات درامية وعمارة تاريخية.</string>
+
+    <string name="wilaya_annaba">Annaba</string>
+    <string name="wilaya_annaba_ar">عنابة</string>
+    <string name="wilaya_annaba_desc_en">A coastal city with beautiful beaches and ancient Roman ruins.</string>
+    <string name="wilaya_annaba_desc_ar">مدينة ساحلية تتميز بشواطئ جميلة وآثار رومانية قديمة.</string>
+
+    <string name="wilaya_blida">Blida</string>
+    <string name="wilaya_blida_ar">البليدة</string>
+    <string name="wilaya_blida_desc_en">Known as the City of Roses, surrounded by beautiful gardens and mountains.</string>
+    <string name="wilaya_blida_desc_ar">المعروفة باسم مدينة الورود، محاطة بحدائق وجبال جميلة.</string>
+
+    <string name="wilaya_setif">Setif</string>
+    <string name="wilaya_setif_ar">سطيف</string>
+    <string name="wilaya_setif_desc_en">A historic city with rich agricultural heritage and Roman ruins.</string>
+    <string name="wilaya_setif_desc_ar">مدينة تاريخية تتميز بتراث زراعي غني وآثار رومانية.</string>
+
+    <string name="wilaya_batna">Batna</string>
+    <string name="wilaya_batna_ar">باتنة</string>
+    <string name="wilaya_batna_desc_en">Gateway to the Aures Mountains and home to ancient Roman ruins.</string>
+    <string name="wilaya_batna_desc_ar">بوابة جبال الأوراس وموطن للآثار الرومانية القديمة.</string>
+
+    <string name="wilaya_bejaia">Bejaia</string>
+    <string name="wilaya_bejaia_ar">بجاية</string>
+    <string name="wilaya_bejaia_desc_en">A coastal city with beautiful beaches and rich cultural heritage.</string>
+    <string name="wilaya_bejaia_desc_ar">مدينة ساحلية تتميز بشواطئ جميلة وتراث ثقافي غني.</string>
+
+    <string name="wilaya_skikda">Skikda</string>
+    <string name="wilaya_skikda_ar">سكيكدة</string>
+    <string name="wilaya_skikda_desc_en">A port city with beautiful Mediterranean coastline and historic sites.</string>
+    <string name="wilaya_skikda_desc_ar">مدينة مينائية تتميز بساحل متوسطي جميل ومواقع تاريخية.</string>
+
+    <string name="wilaya_tlemcen">Tlemcen</string>
+    <string name="wilaya_tlemcen_ar">تلمسان</string>
+    <string name="wilaya_tlemcen_desc_en">Known for its Islamic architecture and rich cultural heritage.</string>
+    <string name="wilaya_tlemcen_desc_ar">تشتهر بعمارتها الإسلامية وتراثها الثقافي الغني.</string>
 </resources> 

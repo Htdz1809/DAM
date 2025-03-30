@@ -120,138 +120,138 @@ public class WilayaDetailActivity extends AppCompatActivity {
         
         // Add sample sites based on the wilaya
         if (wilayaName != null) {
-            if (wilayaName.equals("Algiers") || wilayaName.equals("Alger")) {
+            if (wilayaName.equals(getString(R.string.wilaya_algiers))) {
                 // Tourist Attractions
                 allSites.add(new TouristSite(
-                    "The Casbah of Algiers | قصبة الجزائر", 
-                    "A historic district with narrow streets and Ottoman architecture, listed as a UNESCO World Heritage Site.", 
-                    "حي تاريخي بأزقة ضيقة وهندسة عثمانية، مدرج ضمن قائمة التراث العالمي لليونسكو.",
-                    "Casbah, Algiers, Algeria",
-                    "القصبة، الجزائر، الجزائر", 
-                    "+213 21 98 76 54",
-                    "casbah@tourism.dz",
+                    getString(R.string.casbah_name),
+                    getString(R.string.casbah_description),
+                    getString(R.string.casbah_description),
+                    getString(R.string.casbah_address),
+                    getString(R.string.casbah_address),
+                    getString(R.string.casbah_phone),
+                    getString(R.string.casbah_email),
                     R.drawable.casbah,
                     "ATTRACTION"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "Basilica of Our Lady of Africa | كاتدرائية السيدة الإفريقية", 
-                    "A 19th-century church offering a panoramic view of Algiers Bay.", 
-                    "كنيسة من القرن التاسع عشر تطل على خليج الجزائر بمنظر بانورامي رائع.",
-                    "Rue de Zighara, Algiers, Algeria",
-                    "شارع زيغارة، الجزائر، الجزائر", 
-                    "+213 21 21 54 90",
-                    "basilica@tourism.dz",
+                    getString(R.string.basilica_name),
+                    getString(R.string.basilica_description),
+                    getString(R.string.basilica_description),
+                    getString(R.string.basilica_address),
+                    getString(R.string.basilica_address),
+                    getString(R.string.basilica_phone),
+                    getString(R.string.basilica_email),
                     R.drawable.notre_dame,
                     "ATTRACTION"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "The Great Mosque of Algiers | المسجد الأعظم", 
-                    "The world's third-largest mosque, featuring the tallest minaret (265m) and modern architecture.", 
-                    "ثالث أكبر مسجد في العالم، يحتوي على أطول مئذنة (265 م) وتصميم معماري حديث.",
-                    "Mohammadia, Algiers, Algeria",
-                    "المحمدية، الجزائر، الجزائر", 
-                    "+213 21 30 82 55",
-                    "greatmosque@tourism.dz",
+                    getString(R.string.great_mosque_name),
+                    getString(R.string.great_mosque_description),
+                    getString(R.string.great_mosque_description),
+                    getString(R.string.great_mosque_address),
+                    getString(R.string.great_mosque_address),
+                    getString(R.string.great_mosque_phone),
+                    getString(R.string.great_mosque_email),
                     R.drawable.great_mosque,
                     "ATTRACTION"
                 ));
                 
                 // Hotels & Restaurants
                 allSites.add(new TouristSite(
-                    "Sofitel Algiers Hamma Garden | فندق سوفيتيل الجزائر حديقة الحامة", 
-                    "A luxury 5-star hotel near the botanical garden.", 
-                    "فندق فاخر من فئة 5 نجوم بجوار الحديقة النباتية.",
-                    "172, Rue Hassiba Ben Bouali, Algiers, Algeria",
-                    "172، شارع حسيبة بن بوعلي، الجزائر، الجزائر", 
-                    "+213 21 68 52 10",
-                    "reservations@sofitel-algiers.com",
+                    getString(R.string.sofitel_name),
+                    getString(R.string.sofitel_description),
+                    getString(R.string.sofitel_description),
+                    getString(R.string.sofitel_address),
+                    getString(R.string.sofitel_address),
+                    getString(R.string.sofitel_phone),
+                    getString(R.string.sofitel_email),
                     R.drawable.hotel_sofitel,
                     "HOTEL"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "El Aurassi Hotel | فندق الأوراسي", 
-                    "A high-end hotel with a stunning bay view and multiple restaurants.", 
-                    "فندق فاخر يطل على الخليج، يضم عدة مطاعم.",
-                    "2, Boulevard Frantz Fanon, Algiers, Algeria",
-                    "2، شارع فرانتز فانون، الجزائر، الجزائر", 
-                    "+213 21 74 82 52",
-                    "contact@elaurassi.com",
-                    R.drawable.hotel_aurassi,
+                    getString(R.string.aurassi_name),
+                    getString(R.string.aurassi_description),
+                    getString(R.string.aurassi_description),
+                    getString(R.string.aurassi_address),
+                    getString(R.string.aurassi_address),
+                    getString(R.string.aurassi_phone),
+                    getString(R.string.aurassi_email),
+                        R.drawable.hotel_aurassi,
                     "HOTEL"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "AZ Hotel Kouba | فندق AZ كوبّا", 
-                    "A modern 4-star hotel in Kouba with international cuisine.", 
-                    "فندق عصري من فئة 4 نجوم في كوبّا، يقدم مأكولات عالمية.",
-                    "Avenue Mohamed Rabia, Kouba, Algiers, Algeria",
-                    "شارع محمد رابيا، كوبّا، الجزائر، الجزائر", 
-                    "+213 23 75 70 70",
-                    "reservation@azhotel.dz",
+                    getString(R.string.az_hotel_name),
+                    getString(R.string.az_hotel_description),
+                    getString(R.string.az_hotel_description),
+                    getString(R.string.az_hotel_address),
+                    getString(R.string.az_hotel_address),
+                    getString(R.string.az_hotel_phone),
+                    getString(R.string.az_hotel_email),
                     R.drawable.hotel_az,
                     "HOTEL"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "Le Tantra | مطعم التانترا", 
-                    "A stylish restaurant serving a mix of local and international dishes.", 
-                    "مطعم أنيق يقدم مزيجًا من الأطباق المحلية والعالمية.",
-                    "36, Rue Mohamed Khoudi, El Mouradia, Algiers, Algeria",
-                    "36، شارع محمد خودي، المرادية، الجزائر، الجزائر", 
-                    "+213 21 69 20 20",
-                    "reservations@tantra.dz",
+                    getString(R.string.tantra_name),
+                    getString(R.string.tantra_description),
+                    getString(R.string.tantra_description),
+                    getString(R.string.tantra_address),
+                    getString(R.string.tantra_address),
+                    getString(R.string.tantra_phone),
+                    getString(R.string.tantra_email),
                     R.drawable.rest_lyre,
                     "HOTEL"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "Restaurant Signature | مطعم سيجنتشر", 
-                    "A fine-dining restaurant known for its gourmet cuisine and elegant decor.", 
-                    "مطعم راقٍ يشتهر بمأكولاته الفاخرة وديكوره الأنيق.",
-                    "Val d'Hydra, Algiers, Algeria",
-                    "فال د'حيدرة، الجزائر، الجزائر", 
-                    "+213 21 60 37 73",
-                    "info@signature-restaurant.dz",
+                    getString(R.string.signature_name),
+                    getString(R.string.signature_description),
+                    getString(R.string.signature_description),
+                    getString(R.string.signature_address),
+                    getString(R.string.signature_address),
+                    getString(R.string.signature_phone),
+                    getString(R.string.signature_email),
                     R.drawable.rest_baie,
                     "HOTEL"
                 ));
                 
                 // Parks & Gardens
                 allSites.add(new TouristSite(
-                    "Jardin d'Essai du Hamma | حديقة التجارب الحامة", 
-                    "A famous botanical garden with diverse plants, ideal for a stroll.", 
-                    "حديقة نباتية شهيرة تضم نباتات متنوعة، مثالية للنزهات.",
-                    "Rue Hassiba Ben Bouali, Algiers, Algeria",
-                    "شارع حسيبة بن بوعلي، الجزائر، الجزائر", 
-                    "+213 21 77 14 64",
-                    "contact@jardin-essai.dz",
+                    getString(R.string.hamma_garden_name),
+                    getString(R.string.hamma_garden_description),
+                    getString(R.string.hamma_garden_description),
+                    getString(R.string.hamma_garden_address),
+                    getString(R.string.hamma_garden_address),
+                    getString(R.string.hamma_garden_phone),
+                    getString(R.string.hamma_garden_email),
                     R.drawable.jardin_hamma,
                     "PARK"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "Parc de la Liberté | منتزه الحرية", 
-                    "A peaceful green park in the city center, perfect for relaxation.", 
-                    "منتزه هادئ وسط المدينة، مثالي للاسترخاء.",
-                    "Rue Didouche Mourad, Algiers, Algeria",
-                    "شارع ديدوش مراد، الجزائر، الجزائر", 
-                    "+213 21 63 05 97",
-                    "info@parc-liberte.dz",
+                    getString(R.string.liberte_park_name),
+                    getString(R.string.liberte_park_description),
+                    getString(R.string.liberte_park_description),
+                    getString(R.string.liberte_park_address),
+                    getString(R.string.liberte_park_address),
+                    getString(R.string.liberte_park_phone),
+                    getString(R.string.liberte_park_email),
                     R.drawable.parc_liberte,
                     "PARK"
                 ));
                 
                 allSites.add(new TouristSite(
-                    "Parc Dounia | حديقة الدنيا", 
-                    "A large park with leisure areas, children's playgrounds, and walking trails.", 
-                    "حديقة واسعة تضم مناطق ترفيهية وأماكن لعب للأطفال ومسارات للمشي.",
-                    "Cheraga, Algiers, Algeria",
-                    "الشراقة، الجزائر، الجزائر", 
-                    "+213 21 36 12 05",
-                    "contact@dounia-park.dz",
+                    getString(R.string.dounia_park_name),
+                    getString(R.string.dounia_park_description),
+                    getString(R.string.dounia_park_description),
+                    getString(R.string.dounia_park_address),
+                    getString(R.string.dounia_park_address),
+                    getString(R.string.dounia_park_phone),
+                    getString(R.string.dounia_park_email),
                     R.drawable.dounia_parks,
                     "PARK"
                 ));
@@ -259,12 +259,14 @@ public class WilayaDetailActivity extends AppCompatActivity {
             } else {
                 // For other wilayas, show a message that only Algiers sites are currently available
                 allSites.add(new TouristSite(
-                    "Algiers Sites Only", 
-                    "Currently only Algiers sites are available in this demo",
-                    "حاليًا فقط مواقع الجزائر العاصمة متاحة في هذا العرض التجريبي", 
-                    "N/A", 
+                    "Algiers Sites Only",
+                    getString(R.string.other_wilayas_message),
+                    getString(R.string.other_wilayas_message),
+                    "N/A",
                     "غير متوفر",
-                    R.drawable.ic_attraction, 
+                    "N/A",
+                    "N/A",
+                    R.drawable.ic_attraction,
                     "ATTRACTION"
                 ));
             }

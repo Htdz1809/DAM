@@ -52,4 +52,124 @@
     <string name="about_app">About App</string>
     <string name="version">Version 1.0.0</string>
     <string name="app_signature">Algerian Tourist Guide</string>
+
+    <!-- Tourist Sites - Algiers -->
+    <string name="casbah_name">The Casbah of Algiers</string>
+    <string name="casbah_description">A historic district with narrow streets and Ottoman architecture, listed as a UNESCO World Heritage Site.</string>
+    <string name="casbah_address">Casbah, Algiers, Algeria</string>
+    <string name="casbah_phone">+213 21 98 76 54</string>
+    <string name="casbah_email">casbah@tourism.dz</string>
+
+    <string name="basilica_name">Basilica of Our Lady of Africa</string>
+    <string name="basilica_description">A 19th-century church offering a panoramic view of Algiers Bay.</string>
+    <string name="basilica_address">Rue de Zighara, Algiers, Algeria</string>
+    <string name="basilica_phone">+213 21 21 54 90</string>
+    <string name="basilica_email">basilica@tourism.dz</string>
+
+    <string name="great_mosque_name">The Great Mosque of Algiers</string>
+    <string name="great_mosque_description">The world\'s third-largest mosque, featuring the tallest minaret (265m) and modern architecture.</string>
+    <string name="great_mosque_address">Mohammadia, Algiers, Algeria</string>
+    <string name="great_mosque_phone">+213 21 30 82 55</string>
+    <string name="great_mosque_email">greatmosque@tourism.dz</string>
+
+    <string name="sofitel_name">Sofitel Algiers Hamma Garden</string>
+    <string name="sofitel_description">A luxury 5-star hotel near the botanical garden.</string>
+    <string name="sofitel_address">172, Rue Hassiba Ben Bouali, Algiers, Algeria</string>
+    <string name="sofitel_phone">+213 21 68 52 10</string>
+    <string name="sofitel_email">reservations@sofitel-algiers.com</string>
+
+    <string name="aurassi_name">El Aurassi Hotel</string>
+    <string name="aurassi_description">A high-end hotel with a stunning bay view and multiple restaurants.</string>
+    <string name="aurassi_address">2, Boulevard Frantz Fanon, Algiers, Algeria</string>
+    <string name="aurassi_phone">+213 21 74 82 52</string>
+    <string name="aurassi_email">contact@elaurassi.com</string>
+
+    <string name="az_hotel_name">AZ Hotel Kouba</string>
+    <string name="az_hotel_description">A modern 4-star hotel in Kouba with international cuisine.</string>
+    <string name="az_hotel_address">Avenue Mohamed Rabia, Kouba, Algiers, Algeria</string>
+    <string name="az_hotel_phone">+213 23 75 70 70</string>
+    <string name="az_hotel_email">reservation@azhotel.dz</string>
+
+    <string name="tantra_name">Le Tantra</string>
+    <string name="tantra_description">A stylish restaurant serving a mix of local and international dishes.</string>
+    <string name="tantra_address">36, Rue Mohamed Khoudi, El Mouradia, Algiers, Algeria</string>
+    <string name="tantra_phone">+213 21 69 20 20</string>
+    <string name="tantra_email">reservations@tantra.dz</string>
+
+    <string name="signature_name">Restaurant Signature</string>
+    <string name="signature_description">A fine-dining restaurant known for its gourmet cuisine and elegant decor.</string>
+    <string name="signature_address">Val d\'Hydra, Algiers, Algeria</string>
+    <string name="signature_phone">+213 21 60 37 73</string>
+    <string name="signature_email">info@signature-restaurant.dz</string>
+
+    <string name="hamma_garden_name">Jardin d\'Essai du Hamma</string>
+    <string name="hamma_garden_description">A famous botanical garden with diverse plants, ideal for a stroll.</string>
+    <string name="hamma_garden_address">Rue Hassiba Ben Bouali, Algiers, Algeria</string>
+    <string name="hamma_garden_phone">+213 21 77 14 64</string>
+    <string name="hamma_garden_email">contact@jardin-essai.dz</string>
+
+    <string name="liberte_park_name">Parc de la Liberté</string>
+    <string name="liberte_park_description">A peaceful green park in the city center, perfect for relaxation.</string>
+    <string name="liberte_park_address">Rue Didouche Mourad, Algiers, Algeria</string>
+    <string name="liberte_park_phone">+213 21 63 05 97</string>
+    <string name="liberte_park_email">info@parc-liberte.dz</string>
+
+    <string name="dounia_park_name">Parc Dounia</string>
+    <string name="dounia_park_description">A large park with leisure areas, children\'s playgrounds, and walking trails.</string>
+    <string name="dounia_park_address">Cheraga, Algiers, Algeria</string>
+    <string name="dounia_park_phone">+213 21 36 12 05</string>
+    <string name="dounia_park_email">contact@dounia-park.dz</string>
+
+    <string name="other_wilayas_message">Currently only Algiers sites are available in this demo</string>
+
+    <!-- Wilaya Names and Descriptions -->
+    <string name="wilaya_algiers">Algiers</string>
+    <string name="wilaya_algiers_ar">الجزائر</string>
+    <string name="wilaya_algiers_desc_en">The capital city of Algeria, known for its rich history, Mediterranean coastline, and vibrant culture.</string>
+    <string name="wilaya_algiers_desc_ar">عاصمة الجزائر، تشتهر بتاريخها الغني وساحلها المتوسطي وثقافتها النابضة بالحياة.</string>
+
+    <string name="wilaya_oran">Oran</string>
+    <string name="wilaya_oran_ar">وهران</string>
+    <string name="wilaya_oran_desc_en">A major port city with a rich cultural heritage and beautiful Mediterranean architecture.</string>
+    <string name="wilaya_oran_desc_ar">مدينة مينائية كبرى تتميز بتراث ثقافي غني وعمارة متوسطية جميلة.</string>
+
+    <string name="wilaya_constantine">Constantine</string>
+    <string name="wilaya_constantine_ar">قسنطينة</string>
+    <string name="wilaya_constantine_desc_en">Known as the City of Bridges, featuring dramatic cliffs and historic architecture.</string>
+    <string name="wilaya_constantine_desc_ar">المعروفة باسم مدينة الجسور، تتميز بمنحدرات درامية وعمارة تاريخية.</string>
+
+    <string name="wilaya_annaba">Annaba</string>
+    <string name="wilaya_annaba_ar">عنابة</string>
+    <string name="wilaya_annaba_desc_en">A coastal city with beautiful beaches and ancient Roman ruins.</string>
+    <string name="wilaya_annaba_desc_ar">مدينة ساحلية تتميز بشواطئ جميلة وآثار رومانية قديمة.</string>
+
+    <string name="wilaya_blida">Blida</string>
+    <string name="wilaya_blida_ar">البليدة</string>
+    <string name="wilaya_blida_desc_en">Known as the City of Roses, surrounded by beautiful gardens and mountains.</string>
+    <string name="wilaya_blida_desc_ar">المعروفة باسم مدينة الورود، محاطة بحدائق وجبال جميلة.</string>
+
+    <string name="wilaya_setif">Setif</string>
+    <string name="wilaya_setif_ar">سطيف</string>
+    <string name="wilaya_setif_desc_en">A historic city with rich agricultural heritage and Roman ruins.</string>
+    <string name="wilaya_setif_desc_ar">مدينة تاريخية تتميز بتراث زراعي غني وآثار رومانية.</string>
+
+    <string name="wilaya_batna">Batna</string>
+    <string name="wilaya_batna_ar">باتنة</string>
+    <string name="wilaya_batna_desc_en">Gateway to the Aures Mountains and home to ancient Roman ruins.</string>
+    <string name="wilaya_batna_desc_ar">بوابة جبال الأوراس وموطن للآثار الرومانية القديمة.</string>
+
+    <string name="wilaya_bejaia">Bejaia</string>
+    <string name="wilaya_bejaia_ar">بجاية</string>
+    <string name="wilaya_bejaia_desc_en">A coastal city with beautiful beaches and rich cultural heritage.</string>
+    <string name="wilaya_bejaia_desc_ar">مدينة ساحلية تتميز بشواطئ جميلة وتراث ثقافي غني.</string>
+
+    <string name="wilaya_skikda">Skikda</string>
+    <string name="wilaya_skikda_ar">سكيكدة</string>
+    <string name="wilaya_skikda_desc_en">A port city with beautiful Mediterranean coastline and historic sites.</string>
+    <string name="wilaya_skikda_desc_ar">مدينة مينائية تتميز بساحل متوسطي جميل ومواقع تاريخية.</string>
+
+    <string name="wilaya_tlemcen">Tlemcen</string>
+    <string name="wilaya_tlemcen_ar">تلمسان</string>
+    <string name="wilaya_tlemcen_desc_en">Known for its Islamic architecture and rich cultural heritage.</string>
+    <string name="wilaya_tlemcen_desc_ar">تشتهر بعمارتها الإسلامية وتراثها الثقافي الغني.</string>
 </resources>

@@ -53,20 +53,42 @@ public class ExploreFragment extends Fragment implements WilayaAdapter.OnWilayaC
         wilayaList = new ArrayList<>();
         
         // Add wilayas to the list with bilingual descriptions
-        wilayaList.add(new Wilaya("Algiers", "الجزائر العاصمة", 
-            "Algiers, the capital of Algeria, is a vibrant city where history and modernity blend seamlessly. Known for its stunning white-washed buildings overlooking the Mediterranean, Algiers boasts iconic landmarks such as the Casbah (a UNESCO World Heritage Site), the Martyrs' Memorial, and the scenic Bay of Algiers. Visitors can explore museums, historical palaces, and lively markets while enjoying a mix of French colonial and traditional Algerian architecture.",
-            "الجزائر العاصمة مدينة نابضة بالحياة حيث يلتقي التاريخ بالحداثة. تشتهر بمبانيها البيضاء المطلة على البحر الأبيض المتوسط، وتضم معالم أيقونية مثل القصبة (موقع تراث عالمي لليونسكو)، ومقام الشهيد، وخليج الجزائر الساحر. يمكن للزوار استكشاف المتاحف والقصور التاريخية والأسواق الحيوية، والاستمتاع بالمزيج الفريد بين العمارة الاستعمارية الفرنسية والتقاليد الجزائرية.",
+        wilayaList.add(new Wilaya(
+            getString(R.string.wilaya_algiers),
+            getString(R.string.wilaya_algiers_ar),
+            getString(R.string.wilaya_algiers_desc_en),
+            getString(R.string.wilaya_algiers_desc_ar),
             R.drawable.ic_algiers));
             
-        wilayaList.add(new Wilaya("Oran", "وهران", 
-            "Oran, the \"Pearl of the West,\" is one of Algeria's most dynamic cities. Famous for its musical heritage, especially Rai music, Oran offers a lively atmosphere with beautiful Mediterranean beaches, historic sites like Fort Santa Cruz, and the majestic Great Mosque. The city's Spanish and French influences are reflected in its architecture, and its vibrant nightlife and cultural scene make it a must-visit destination.",
-            "وهران، \"لؤلؤة الغرب\"، هي واحدة من أكثر المدن ديناميكية في الجزائر. تشتهر بتراثها الموسيقي، خاصة موسيقى الراي، وتوفر أجواءً حيوية مع شواطئها المتوسطية الجميلة، ومعالمها التاريخية مثل حصن سانتا كروز، والمسجد الكبير الرائع. تنعكس التأثيرات الإسبانية والفرنسية في هندستها المعمارية، وتضفي الحياة الليلية النابضة والمشهد الثقافي المتنوع سحرًا خاصًا على المدينة.",
+        wilayaList.add(new Wilaya(
+            getString(R.string.wilaya_oran),
+            getString(R.string.wilaya_oran_ar),
+            getString(R.string.wilaya_oran_desc_en),
+            getString(R.string.wilaya_oran_desc_ar),
             R.drawable.ic_oran));
             
-        wilayaList.add(new Wilaya("Constantine", "قسنطينة", 
-            "Constantine, known as the \"City of Bridges,\" is one of Algeria's most breathtaking destinations. Built on dramatic cliffs and connected by stunning suspension bridges, the city is a true architectural marvel. It is rich in history, with ancient ruins, Ottoman palaces, and the famous Emir Abdelkader Mosque. The city is also a hub of Algerian culture, renowned for its traditional Andalusian music and exquisite local cuisine.",
-            "قسنطينة، المعروفة باسم \"مدينة الجسور\"، هي واحدة من أروع الوجهات في الجزائر. بُنيت على منحدرات صخرية مذهلة وتربطها جسور معلقة رائعة، مما يجعلها تحفة معمارية فريدة. تزخر المدينة بتاريخ عريق يضم أطلالًا قديمة وقصورًا عثمانية، إضافة إلى جامع الأمير عبد القادر الشهير. تُعد قسنطينة أيضًا مركزًا للثقافة الجزائرية، حيث تشتهر بالموسيقى الأندلسية التقليدية ومأكولاتها المحلية الفريدة.",
+        wilayaList.add(new Wilaya(
+            getString(R.string.wilaya_constantine),
+            getString(R.string.wilaya_constantine_ar),
+            getString(R.string.wilaya_constantine_desc_en),
+            getString(R.string.wilaya_constantine_desc_ar),
             R.drawable.ic_constantine));
+
+        wilayaList.add(new Wilaya(
+            getString(R.string.wilaya_annaba),
+            getString(R.string.wilaya_annaba_ar),
+            getString(R.string.wilaya_annaba_desc_en),
+            getString(R.string.wilaya_annaba_desc_ar),
+            R.drawable.ic_annaba));
+
+
+
+        wilayaList.add(new Wilaya(
+            getString(R.string.wilaya_tlemcen),
+            getString(R.string.wilaya_tlemcen_ar),
+            getString(R.string.wilaya_tlemcen_desc_en),
+            getString(R.string.wilaya_tlemcen_desc_ar),
+            R.drawable.ic_tlemcen));
     }
 
     @Override
