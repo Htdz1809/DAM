@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dzair Discoveries</string>
-    <string name="app_description">تعتبر <b>Dzair Discoveries</b> بوابتك المثالية لاستكشاف قلب وروح الجزائر. انغمس في مزيج غني من التاريخ القديم والثقافة النابضة بالحياة والمناظر الطبيعية الخلابة - من شوارع الجزائر العاصمة الصاخبة إلى جمال الصحراء الهادئ. يقدم تطبيق الدليل الحدسي خاصتنا مسارات مخصصة وخرائط تفاعلية ونصائح من الداخل حول المأكولات المحلية والمهرجانات والكنوز المخفية، مما يضمن تجربتك للسحر الأصيل لكل وجهة. سواء كنت تخطط لرحلة سريعة أو رحلة ثقافية متعمقة، فإن <b>Dzair Discoveries</b> هي رفيقك الأساسي لاكتشاف عجائب الجزائر.</string>
+    <string name="app_name">DzGo</string>
+    <string name="app_description">تعتبر <b>DzGo</b> بوابتك المثالية لاستكشاف قلب وروح الجزائر. انغمس في مزيج غني من التاريخ القديم والثقافة النابضة بالحياة والمناظر الطبيعية الخلابة - من شوارع الجزائر العاصمة الصاخبة إلى جمال الصحراء الهادئ. يقدم تطبيق الدليل الحدسي خاصتنا مسارات مخصصة وخرائط تفاعلية ونصائح من الداخل حول المأكولات المحلية والمهرجانات والكنوز المخفية، مما يضمن تجربتك للسحر الأصيل لكل وجهة. سواء كنت تخطط لرحلة سريعة أو رحلة ثقافية متعمقة، فإن <b>DzGo</b> هي رفيقك الأساسي لاكتشاف عجائب الجزائر.</string>
     <string name="students_title">تم تطويره بواسطة:</string>
-    <string name="students_list">هادي تودرت\nثامر نياتي\nماريا طبيب</string>
+    <string name="students_list">هادي تودرت\nثامر نياطي\nماريا طبيب</string>
     
     <!-- Bottom Navigation Menu -->
     <string name="menu_home">الرئيسية</string>
@@ -41,7 +41,7 @@
     <string name="call_failed">فشل الاتصال</string>
     <string name="email_failed">فشل البريد الإلكتروني</string>
     <string name="map_failed">لا يمكن فتح الخريطة</string>
-    <string name="email_chooser_title">إرسال بريد إلكتروني باستخدام...</string>
+    <string name="email_chooser_title">إرسال بريد إلكتروني باستخدام…</string>
     
     <!-- Settings strings -->
     <string name="settings_title">الإعدادات</string>
@@ -53,6 +53,29 @@
     <string name="about_app">حول التطبيق</string>
     <string name="version">الإصدار 1.0.0</string>
     <string name="app_signature">دليل سياحي جزائري</string>
+    
+    <!-- Nouvelles chaînes pour l'UI améliorée en arabe -->
+    <string name="profile_image">صورة الملف الشخصي</string>
+    <string name="user_profile">الملف الشخصي</string>
+    <string name="profile_settings_desc">إدارة معلوماتك الشخصية</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="language_icon">أيقونة اللغة</string>
+    <string name="theme_icon">أيقونة المظهر</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="notifications_icon">أيقونة الإشعارات</string>
+    <string name="enable_notifications">تفعيل الإشعارات</string>
+    <string name="about_icon">أيقونة حول</string>
+    <string name="arrow_right">سهم لليمين</string>
+    
+    <!-- Nouvelles chaînes pour la page About en arabe -->
+    <string name="key_features">المميزات الرئيسية</string>
+    <string name="feature_search">البحث عن المواقع السياحية حسب المدينة/الولاية</string>
+    <string name="feature_multilingual">متعدد اللغات (الفرنسية/الإنجليزية/العربية)</string>
+    <string name="feature_contact">الاتصال المباشر (الهاتف، الرسائل القصيرة، البريد الإلكتروني)</string>
+    <string name="feature_interface">واجهة بديهية مع قوائم وبطاقات ديناميكية</string>
+    <string name="our_mission">مهمتنا</string>
+    <string name="mission_description">مهمتنا هي تعزيز السياحة في الجزائر من خلال جعل اكتشاف التراث الثقافي والطبيعي أكثر سهولة.</string>
+    <string name="copyright_info">© 2025 فريق DzGo. الإصدار 1.0. جميع الحقوق محفوظة.</string>
 
     <!-- Tourist Sites - Algiers -->
     <string name="casbah_name">قصبة الجزائر</string>
@@ -173,4 +196,80 @@
     <string name="wilaya_tlemcen_ar">تلمسان</string>
     <string name="wilaya_tlemcen_desc_en">Known for its Islamic architecture and rich cultural heritage.</string>
     <string name="wilaya_tlemcen_desc_ar">تشتهر بعمارتها الإسلامية وتراثها الثقافي الغني.</string>
+
+    <!-- Tourist Sites - Oran -->
+    <string name="santa_cruz_name">كنيسة سانتا كروز</string>
+    <string name="santa_cruz_description">كان حرم سانتا كروز في الأصل كنيسة في وهران، بُنيت على نهر أيدور أسفل حصن سانتا كروز.</string>
+    <string name="santa_cruz_address">كنيسة سانتا كروز,وهران</string>
+    <string name="santa_cruz_phone">+213 (0) 770 10 55 66</string>
+    <string name="santa_cruz_email">jeanpaulvesco@santacruz-oran.com</string>
+
+    <string name="pacha_mosque_name">مسجد الباشا</string>
+    <string name="pacha_mosque_description">مسجد تم بنائه عام 1796 خلال عهد الباي محمد الكبير بامر من باشا بابا حسن</string>
+    <string name="pacha_mosque_address">مسجد الباشا,وهران</string>
+    <string name="pacha_mosque_phone">غير متوفر</string>
+    <string name="pacha_mosque_email">غير متوفر</string>
+
+    <string name="oran_station_name">محطة وهران</string>
+    <string name="oran_station_description">محطة وهران هي محطة مميزة في الجزائر موفرة تصميم عصري و منظر جميل للزوار.</string>
+    <string name="oran_station_address">71 شارع مس بوضياف ,وهران 31000</string>
+    <string name="oran_station_phone">+213 21 71 15 10</string>
+    <string name="oran_station_email">contact@sntf.dz</string>
+
+    <string name="sheraton_name">فندق فور بوينتس شيراطون</string>
+    <string name="sheraton_description">فندق فاخر من فئة 5 نجوم يقع في مدينة بوابة ميناء بوهران.</string>
+    <string name="sheraton_address">بولفار 19 مارس ، شارع المنحدرات، وهران، الجزائر ,31000</string>
+    <string name="sheraton_phone">+213 41 59 02 52</string>
+    <string name="sheraton_email">reservationfp.oran@fourpoints.com</string>
+
+    <string name="royal_hotel_name">فندق رويال وهران - إم جاليري</string>
+    <string name="royal_hotel_description">فندق رويال أوران - إم غاليري هو فندق فاخر من فئة الخمس نجوم يقع في قلب مدينة وهران بالجزائر. يجمع بين سحر التاريخ ووسائل الراحة الحديثة، ويقدم إطلالات رائعة على البحر الأبيض المتوسط.</string>
+    <string name="royal_hotel_address">فندق رويال أوران - إم جاليري، بوليفار الجمهورية، أوران، الجزائر</string>
+    <string name="royal_hotel_phone">+213 41 29 17 17</string>
+    <string name="royal_hotel_email">H9126-RE@ACCOR.COM</string>
+
+    <string name="colombe_name">فندق بيست ويسترن كولومب</string>
+    <string name="colombe_description">فندق بست ويسترن كولومب يقع في قلب مدينة وهران، الجزائر، وتم تجديده بالكامل في 2017. يتميز بموقع قريب من المطار ووسط المدينة. يقدم خدمات مثل الواي فاي المجاني، مركز لياقة بدنية، مطعم يقدم أطباق متنوعة، وخدمة الغرف على مدار الساعة.</string>
+    <string name="colombe_address">6 شارع زابور العربي، حي خالدية، وهران 31000، الجزائر</string>
+    <string name="colombe_phone">+213 41 74 61 75</string>
+    <string name="colombe_email">reservation@hotelcolombe.com</string>
+
+    <string name="comete_name">لا كوميتي</string>
+    <string name="comete_description">تشتهر لا كوميتي بديكورها الكلاسيكي وأجوائها المريحة المناسبة للعائلات. يقدم المطعم مجموعة متنوعة من الأطباق الفرنسية الأوروبية، بما في ذلك حساء البصل الفرنسي، الكاسوليه، لحم البقر بورغينيون، سوفليه الشوكولاتة، وتاكين البط.</string>
+    <string name="comete_address">1 شارع السلام، وهران، الجزائر</string>
+    <string name="comete_phone">+213 41 29 45 84</string>
+    <string name="comete_email">غير متوفر</string>
+
+    <string name="villa_name">أمبيانس لا فيلا</string>
+    <string name="villa_description">تتخصص أمبيانس لا فيلا في المأكولات الأوروبية والفرنسية، وتقدم أجواء ساحرة مع ديكور ذوقي وأجواء ترحيبية.</string>
+    <string name="villa_address">45 شارع وهراني بومدين، وهران، الجزائر</string>
+    <string name="villa_phone">+213 554 04 80 70</string>
+    <string name="villa_email">Villaambiance3@gmail.com</string>
+
+    <string name="canastel_name">غابة كانستال</string>
+    <string name="canastel_description">تقع غابة كانستال إلى الشرق من وهران، وتمتد على مساحة 120 هكتارًا وتعد رئة المدينة البيئية. تتميز الغابة بتنوع نباتي غني يشمل أشجار الصنوبر والأوكالبتوس واللافندر.</string>
+    <string name="canastel_address">غابة كانستال، وهران، الجزائر</string>
+    <string name="canastel_phone">+213 560 04 51 00</string>
+    <string name="canastel_email">غير متوفر</string>
+
+    <string name="andalusian_name">الحديقة الأندلسية (الحديقة المدنية المتوسطية)</string>
+    <string name="andalusian_description">تقع هذه الحديقة النباتية الشاسعة التي تبلغ مساحتها 13 هكتارًا بالقرب من محكمة السيديكية ومقر الإقامة الرسمي، وتوفر إطلالة ساحرة على البحر الأبيض المتوسط.</string>
+    <string name="andalusian_address">W75، وهران، الجزائر</string>
+    <string name="andalusian_phone">+213 551 50 51 26</string>
+    <string name="andalusian_email">غير متوفر</string>
+
+    <string name="paradise_beach_name">شاطئ الجنة</string>
+    <string name="paradise_beach_description">يقع شاطئ الجنة في خليج آيغوادس، ويشتهر برماله الذهبية الناعمة ومياهه الزرقاء الصافية، مما يجعله مناسبًا للسباحة على مدار العام.</string>
+    <string name="paradise_beach_address">خليج آيغوادس، وهران، الجزائر</string>
+    <string name="paradise_beach_phone">غير متوفر</string>
+    <string name="paradise_beach_email">غير متوفر</string>
+
+    <!-- Chaînes pour la page développeurs en arabe -->
+    <string name="dev_image">صورة المطور</string>
+    <string name="dev_name_1">هادي تودرت</string>
+    <string name="dev_name_2">ثامر نياطي</string>
+    <string name="dev_name_3">ماريا طبيب</string>
+    <string name="dev_role_1">فوج 3</string>
+    <string name="dev_role_2">فوج 3</string>
+    <string name="dev_role_3">فوج 2</string>
 </resources> 

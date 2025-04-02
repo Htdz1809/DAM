@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wilaya Names and Descriptions -->
+    <string name="wilaya_algiers">Algiers</string>
+    <string name="wilaya_algiers_desc">The capital city of Algeria, known for its rich history, Mediterranean coastline, and vibrant culture.</string>
+
+    <string name="wilaya_oran">Oran</string>
+    <string name="wilaya_oran_desc">A major port city with a rich cultural heritage and beautiful Mediterranean architecture.</string>
+
+    <string name="wilaya_constantine">Constantine</string>
+    <string name="wilaya_constantine_desc">Known as the City of Bridges, featuring dramatic cliffs and historic architecture.</string>
+
+    <string name="wilaya_annaba">Annaba</string>
+    <string name="wilaya_annaba_desc">A coastal city with beautiful beaches and ancient Roman ruins.</string>
+</resources> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fond vert -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#4CAF50"/>
+            <corners android:radius="32dp"/>
+        </shape>
+    </item>
+    
+    <!-- Grille -->
+    <item>
+        <bitmap
+            android:src="@drawable/grid_pattern"
+            android:tileMode="repeat"
+            android:alpha="0.2"/>
+    </item>
+</layer-list> 
