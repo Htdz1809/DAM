@@ -5,26 +5,39 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SiteDetailActivity extends AppCompatActivity {
 
     private static final int CALL_PHONE_PERMISSION_REQUEST = 1001;
     private static final int LOCATION_PERMISSION_REQUEST = 1002;
 
-    private ImageView siteImage;
-    private ImageView backButton;
+    private ViewPager2 imageSlider;
+    private TabLayout indicator;
+    private Toolbar toolbar;
     private TextView siteName;
     private TextView siteDescription;
     private TextView addressTitle;
@@ -32,10 +45,16 @@ public class SiteDetailActivity extends AppCompatActivity {
     private MaterialButton callButton;
     private MaterialButton emailButton;
     private MaterialButton mapButton;
+    private TextView imageCounter;
+    private LinearLayout customIndicator;
+    private FrameLayout leftNavButton;
+    private FrameLayout rightNavButton;
     
     private String phoneNumber;
     private String emailAddress;
     private String locationAddress;
+    private List<Integer> imageResourceIds;
+    private int currentPosition = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +62,9 @@ public class SiteDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_site_detail);
 
         // Initialize views
-        siteImage = findViewById(R.id.siteImage);
-        backButton = findViewById(R.id.backButton);
+        imageSlider = findViewById(R.id.imageSlider);
+        indicator = findViewById(R.id.indicator);
+        toolbar = findViewById(R.id.toolbar);
         siteName = findViewById(R.id.siteName);
         siteDescription = findViewById(R.id.siteDescription);
         addressTitle = findViewById(R.id.addressTitle);
@@ -52,9 +72,19 @@ public class SiteDetailActivity extends AppCompatActivity {
         callButton = findViewById(R.id.callButton);
         emailButton = findViewById(R.id.emailButton);
         mapButton = findViewById(R.id.mapButton);
+        imageCounter = findViewById(R.id.imageCounter);
+        customIndicator = findViewById(R.id.customIndicator);
+        leftNavButton = findViewById(R.id.leftNavButton);
+        rightNavButton = findViewById(R.id.rightNavButton);
 
-        // Setup back button
-        backButton.setOnClickListener(v -> onBackPressed());
+        // Setup toolbar
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setNavigationOnClickListener(v -> onBackPressed());
+
+        // Initialize image list
+        imageResourceIds = new ArrayList<>();
 
         // Get data from intent
         if (getIntent() != null) {
@@ -63,13 +93,35 @@ public class SiteDetailActivity extends AppCompatActivity {
             locationAddress = getIntent().getStringExtra("site_address");
             phoneNumber = getIntent().getStringExtra("site_phone");
             emailAddress = getIntent().getStringExtra("site_email");
-            int imageResourceId = getIntent().getIntExtra("site_image", R.drawable.ic_attraction);
+            
+            // Get main image resource ID
+            int mainImageResourceId = getIntent().getIntExtra("site_image", R.drawable.ic_attraction);
+            
+            // Add main image to slider
+            imageResourceIds.add(mainImageResourceId);
+            
+            // Check if additional images are provided
+            int[] additionalImages = getIntent().getIntArrayExtra("site_additional_images");
+            if (additionalImages != null) {
+                for (int imgId : additionalImages) {
+                    imageResourceIds.add(imgId);
+                }
+            } else {
+                // If no additional images are provided, add some placeholder images for demo
+                // This can be removed in production when you have real data
+                if (mainImageResourceId != R.drawable.ic_attraction) {
+                    imageResourceIds.add(R.drawable.ic_attraction);
+                    imageResourceIds.add(R.drawable.image_gradient_overlay);
+                }
+            }
 
             // Set data to views
             siteName.setText(name);
             siteDescription.setText(description);
             siteAddress.setText(locationAddress);
-            siteImage.setImageResource(imageResourceId);
+            
+            // Setup image slider
+            setupImageSlider();
 
             // Setup RTL support for Arabic
             String currentLang = getResources().getConfiguration().locale.getLanguage();
@@ -83,6 +135,133 @@ public class SiteDetailActivity extends AppCompatActivity {
             setupCallButton();
             setupEmailButton();
             setupMapButton();
+
+            // Setup navigation buttons
+            setupNavigationButtons();
+        }
+    }
+    
+    private void setupNavigationButtons() {
+        leftNavButton.setOnClickListener(v -> {
+            if (currentPosition > 0) {
+                imageSlider.setCurrentItem(currentPosition - 1, true);
+            }
+        });
+        
+        rightNavButton.setOnClickListener(v -> {
+            if (currentPosition < imageResourceIds.size() - 1) {
+                imageSlider.setCurrentItem(currentPosition + 1, true);
+            }
+        });
+    }
+    
+    private void setupImageSlider() {
+        // Set up ViewPager with images
+        ImageSliderAdapter adapter = new ImageSliderAdapter(imageResourceIds);
+        imageSlider.setAdapter(adapter);
+        
+        // Update initial counter
+        updateImageCounter(0);
+        
+        // Register page change callback
+        imageSlider.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                currentPosition = position;
+                updateImageCounter(position);
+                updateCustomDots(position);
+                updateNavigationButtons(position);
+            }
+        });
+        
+        // Setup custom dots
+        if (imageResourceIds.size() > 1) {
+            setupCustomDots(imageResourceIds.size());
+            updateCustomDots(0);
+            customIndicator.setVisibility(View.VISIBLE);
+        } else {
+            customIndicator.setVisibility(View.GONE);
+        }
+    }
+    
+    private void updateNavigationButtons(int position) {
+        leftNavButton.setAlpha(position == 0 ? 0.3f : 0.7f);
+        rightNavButton.setAlpha(position == imageResourceIds.size() - 1 ? 0.3f : 0.7f);
+    }
+    
+    private void updateImageCounter(int position) {
+        imageCounter.setText(String.format("%d/%d", position + 1, imageResourceIds.size()));
+    }
+    
+    private void setupCustomDots(int count) {
+        customIndicator.removeAllViews();
+        
+        for (int i = 0; i < count; i++) {
+            ImageView dot = new ImageView(this);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            params.setMargins(8, 0, 8, 0);
+            dot.setLayoutParams(params);
+            dot.setImageResource(R.drawable.dot_unselected);
+            
+            // Add click listener to each dot
+            final int position = i;
+            dot.setOnClickListener(v -> imageSlider.setCurrentItem(position, true));
+            
+            customIndicator.addView(dot);
+        }
+    }
+    
+    private void updateCustomDots(int position) {
+        for (int i = 0; i < customIndicator.getChildCount(); i++) {
+            ImageView dot = (ImageView) customIndicator.getChildAt(i);
+            dot.setImageResource(i == position ? R.drawable.dot_selected : R.drawable.dot_unselected);
+            
+            // Animate the selected dot
+            if (i == position) {
+                dot.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).start();
+            } else {
+                dot.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200).start();
+            }
+        }
+    }
+    
+    // Image Slider Adapter
+    private class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.ImageViewHolder> {
+        
+        private List<Integer> images;
+        
+        public ImageSliderAdapter(List<Integer> imageResourceIds) {
+            this.images = imageResourceIds;
+        }
+        
+        @NonNull
+        @Override
+        public ImageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.item_image_slider, parent, false);
+            return new ImageViewHolder(view);
+        }
+        
+        @Override
+        public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
+            holder.imageView.setImageResource(images.get(position));
+        }
+        
+        @Override
+        public int getItemCount() {
+            return images.size();
+        }
+        
+        class ImageViewHolder extends RecyclerView.ViewHolder {
+            ImageView imageView;
+            
+            public ImageViewHolder(@NonNull View itemView) {
+                super(itemView);
+                imageView = itemView.findViewById(R.id.sliderImage);
+            }
         }
     }
     

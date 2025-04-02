@@ -6,7 +6,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
                         bottomNavigationView.setSelectedItemId(R.id.navigation_home);
                     } else if (currentFragment instanceof ExploreFragment) {
                         bottomNavigationView.setSelectedItemId(R.id.navigation_explore);
-                    } else if (currentFragment instanceof SettingsFragment) {
+                    } else {
                         bottomNavigationView.setSelectedItemId(R.id.navigation_settings);
                     }
                 } catch (Exception e) {

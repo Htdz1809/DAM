@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Dzair Discoveries</string>
-    <string name="app_description"><b>Dzair Discoveries</b> is your ultimate gateway to exploring the heart and soul of Algeria. Immerse yourself in a rich blend of ancient history, vibrant culture, and breathtaking landscapes - from the bustling streets of Algiers to the serene beauty of the Sahara. Our intuitive guide app offers curated itineraries, interactive maps, and insider tips on local cuisine, festivals, and hidden gems, ensuring you experience the authentic charm of every destination. Whether you\'re planning a quick getaway or an in-depth cultural journey, <b>Dzair Discoveries</b> is your essential companion for uncovering the wonders of Algeria.</string>
-    <string name="students_title">Developed by:</string>
-    <string name="students_list">HADI TOUDER\nTHAMER NIATI\nMARIA TEBIB</string>
+    <string name="app_name">DzGo</string>
+    <string name="app_description"><b>DzGo</b> is your ultimate gateway to exploring the heart and soul of Algeria. Immerse yourself in a rich blend of ancient history, vibrant culture, and breathtaking landscapes - from the bustling streets of Algiers to the serene beauty of the Sahara. Our intuitive guide app offers curated itineraries, interactive maps, and insider tips on local cuisine, festivals, and hidden gems, ensuring you experience the authentic charm of every destination. Whether you\'re planning a quick getaway or an in-depth cultural journey, <b>DzGo</b> is your essential companion for uncovering the wonders of Algeria.</string>
+    <string name="students_title" translatable="false">Developed by:</string>
+    <string name="students_list" translatable="false">HADI TOUDER\nTHAMER NIATI\nMARIA TEBIB</string>
     
     <!-- Bottom Navigation Menu -->
     <string name="menu_home">Home</string>
@@ -25,7 +25,7 @@
     <string name="places_to_visit">Places to Visit</string>
     
     <!-- Site Detail Strings -->
-    <string name="site_image_description">Site image</string>
+    <string name="site_image_description">Image du site touristique</string>
     <string name="back_button">Back button</string>
     <string name="description_title">Description</string>
     <string name="contact_info_title">Contact Information</string>
@@ -33,7 +33,7 @@
     <string name="address_title">Address</string>
     <string name="call_button">Call</string>
     <string name="email_button">Email</string>
-    <string name="map_button">Map</string>
+    <string name="map_button">Carte</string>
     <string name="no_phone_app">No phone app found</string>
     <string name="no_email_app">No email app found</string>
     <string name="call_permission_denied">Call permission was denied</string>
@@ -52,7 +52,30 @@
     <string name="about_app">About App</string>
     <string name="version">Version 1.0.0</string>
     <string name="app_signature">Algerian Tourist Guide</string>
-
+    
+    <!-- Nouvelles chaînes pour l'UI améliorée -->
+    <string name="profile_image">Profile Image</string>
+    <string name="user_profile">User Profile</string>
+    <string name="profile_settings_desc">Manage your personal information</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="language_icon">Language Icon</string>
+    <string name="theme_icon">Theme Icon</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_icon">Notifications Icon</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="about_icon">About Icon</string>
+    <string name="arrow_right">Arrow Right</string>
+    
+    <!-- Nouvelles chaînes pour la page About -->
+    <string name="key_features">Fonctionnalités clés</string>
+    <string name="feature_search">Recherche de sites touristiques par ville/wilaya</string>
+    <string name="feature_multilingual">Multilingue (français/anglais/arabe)</string>
+    <string name="feature_contact">Contact direct (appel, SMS, email)</string>
+    <string name="feature_interface">Interface intuitive avec ListView et cartes dynamiques</string>
+    <string name="our_mission">Notre mission</string>
+    <string name="mission_description">Notre mission est de promouvoir le tourisme en Algérie en rendant la découverte du patrimoine culturel et naturel plus accessible.</string>
+    <string name="copyright_info">© 2025 DzGo Team. Version 1.0. Tous droits réservés.</string>
+    
     <!-- Tourist Sites - Algiers -->
     <string name="casbah_name">The Casbah of Algiers</string>
     <string name="casbah_description">A historic district with narrow streets and Ottoman architecture, listed as a UNESCO World Heritage Site.</string>
@@ -172,4 +195,84 @@
     <string name="wilaya_tlemcen_ar">تلمسان</string>
     <string name="wilaya_tlemcen_desc_en">Known for its Islamic architecture and rich cultural heritage.</string>
     <string name="wilaya_tlemcen_desc_ar">تشتهر بعمارتها الإسلامية وتراثها الثقافي الغني.</string>
+
+    <!-- Tourist Sites - Oran -->
+    <string name="santa_cruz_name">Chaple of Santa Cruz | كنيسة سانتا كروز</string>
+    <string name="santa_cruz_description">The Sanctuary of Santa Cruz was originally a chaple in Oran built on the Aidour below the fort of Santa Cruz.</string>
+    <string name="santa_cruz_address">chaple santa cruz,Oran</string>
+    <string name="santa_cruz_phone">+213 (0) 770 10 55 66</string>
+    <string name="santa_cruz_email">jeanpaulvesco@santacruz-oran.com</string>
+
+    <string name="pacha_mosque_name">Pasha Mosque | مسجد الباشا</string>
+    <string name="pacha_mosque_description">A mosque built in 1796 during the reign of Bey Mohamed El-kbir on the order of Pasha Baba Hassan</string>
+    <string name="pacha_mosque_address">Pacha Mosque,oran</string>
+    <string name="pacha_mosque_phone">N/A</string>
+    <string name="pacha_mosque_email">N/A</string>
+
+    <string name="oran_station_name">Oran Station | محطة وهران</string>
+    <string name="oran_station_description">Oran station is a special station in Algeria featuring a modern architecture and a beautiful view for the visitors</string>
+    <string name="oran_station_address">71 rue mes boudiaf ,Oran 31000</string>
+    <string name="oran_station_phone">+213 21 71 15 10</string>
+    <string name="oran_station_email">contact@sntf.dz</string>
+
+    <string name="sheraton_name">Four points by Sheraton | فندق فور بوينتس شيراطون</string>
+    <string name="sheraton_description">A luxury 5-star hotel located in the charming port city of oran.</string>
+    <string name="sheraton_address">Boulevard du 19 mars, Route des falaises, Oran, Algeria,31000</string>
+    <string name="sheraton_phone">+213 41 59 02 52</string>
+    <string name="sheraton_email">reservationfp.oran@fourpoints.com</string>
+
+    <string name="royal_hotel_name">Royal Hotel Oran-MGallery | فندق رويال وهران - إم جاليري</string>
+    <string name="royal_hotel_description">The Royal Hotel Oran - MGallery is a luxurious 5-star hotel located in the heart of Oran, Algeria. Combining historic charm with modern amenities, this elegant property offers stunning views of the Mediterranean Sea</string>
+    <string name="royal_hotel_address">Royal Hotel Oran - MGallery,Le Boulevard de la République, Oran, Algeria</string>
+    <string name="royal_hotel_phone">+213 41 29 17 17</string>
+    <string name="royal_hotel_email">H9126-RE@ACCOR.COM</string>
+
+    <string name="colombe_name">Best Western Colombe Hotel | فندق بيست ويسترن كولومب</string>
+    <string name="colombe_description">Best Western Hotel Colombe is located in the heart of Oran, Algeria, and was fully renovated in 2017. It offers free Wi-Fi, a fitness center, a restaurant with diverse dishes, and 24-hour room service.</string>
+    <string name="colombe_address">06 bd zabour larbi hai khaldia, Oran 31000</string>
+    <string name="colombe_phone">+213 41 74 61 75</string>
+    <string name="colombe_email">reservation@hotelcolombe.com</string>
+
+    <string name="comete_name">La Comète | لا كوميتي</string>
+    <string name="comete_description">La Comète is renowned for its classic decor and comfortable, family-friendly atmosphere. The menu features a variety of European-French dishes, including French onion soup, cassoulet, beef bourguignon, chocolate soufflé, and duck confit.</string>
+    <string name="comete_address">1 Rue de la Paix, Oran, Algeria</string>
+    <string name="comete_phone">+213 41 29 45 84</string>
+    <string name="comete_email">N/A</string>
+
+    <string name="villa_name">Ambiance La Villa | أمبيانس لا فيلا</string>
+    <string name="villa_description">Ambiance La Villa specializes in European and French cuisine, offering a charming ambiance with tasteful decor and a welcoming atmosphere.</string>
+    <string name="villa_address">45 Boulevard Wahrani Boumediene, Oran, Algeria</string>
+    <string name="villa_phone">+213 554 04 80 70</string>
+    <string name="villa_email">Villaambiance3@gmail.com</string>
+
+    <string name="canastel_name">Canastel Forest | غابة كانستال</string>
+    <string name="canastel_description">Located to the east of Oran, Canastel Forest spans 120 hectares and serves as the city\'s ecological lung. The forest is rich in diverse flora, including pine, eucalyptus, and lavender trees</string>
+    <string name="canastel_address">foret de canastel, Oran, Algeria</string>
+    <string name="canastel_phone">+213 560 04 51 00</string>
+    <string name="canastel_email">N/A</string>
+
+    <string name="andalusian_name">Andalusian Garden (Jardin Citadin Méditerranéen) | الحديقة الأندلسية (الحديقة المدنية المتوسطية)</string>
+    <string name="andalusian_description">Situated near the Essedikia Court and the state residence, this expansive 13-hectare botanical garden offers a captivating view of the Mediterranean Sea.</string>
+    <string name="andalusian_address">W75, Oran, Algeria</string>
+    <string name="andalusian_phone">+213 551 50 51 26</string>
+    <string name="andalusian_email">N/A</string>
+
+    <string name="paradise_beach_name">Paradise Beach | شاطئ الجنة</string>
+    <string name="paradise_beach_description">Located in the Baie des Aiguades, Paradise Beach is renowned for its soft golden sands and clear blue waters, making it suitable for swimming year-round.</string>
+    <string name="paradise_beach_address">Baie des Aiguades, Oran, Algeria</string>
+    <string name="paradise_beach_phone">N/A</string>
+    <string name="paradise_beach_email">N/A</string>
+
+    <!-- Chaînes pour la page développeurs -->
+    <string name="dev_image">Developer image</string>
+    <string name="dev_name_1">HADI TOUDER</string>
+    <string name="dev_name_2">THAMER NIATI</string>
+    <string name="dev_name_3">MARIA TEBIB</string>
+    <string name="dev_role_1">Group 3</string>
+    <string name="dev_role_2">Group 3</string>
+    <string name="dev_role_3">Group 2</string>
+
+    <string name="previous_image">Image précédente</string>
+    <string name="next_image">Image suivante</string>
+    <string name="splash_image_description">Image d\'accueil</string>
 </resources>

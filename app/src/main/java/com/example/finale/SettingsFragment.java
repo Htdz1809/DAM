@@ -1,6 +1,7 @@
 package com.example.finale;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -18,6 +19,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 
 import java.util.Locale;
@@ -27,6 +29,7 @@ public class SettingsFragment extends Fragment {
     private RadioGroup languageRadioGroup;
     private RadioButton radioEnglish, radioArabic;
     private SwitchMaterial themeSwitch;
+    private MaterialCardView aboutCardView;
     private SharedPreferences sharedPreferences;
 
     public SettingsFragment() {
@@ -55,6 +58,7 @@ public class SettingsFragment extends Fragment {
             radioEnglish = view.findViewById(R.id.radioEnglish);
             radioArabic = view.findViewById(R.id.radioArabic);
             themeSwitch = view.findViewById(R.id.themeSwitch);
+            aboutCardView = view.findViewById(R.id.aboutCardView);
 
             if (languageRadioGroup != null && radioEnglish != null && radioArabic != null) {
                 // Définir la langue actuellement sélectionnée
@@ -96,6 +100,20 @@ public class SettingsFragment extends Fragment {
             // Configurer le switch de thème
             if (themeSwitch != null) {
                 setupThemeSwitch();
+            }
+            
+            // Configurer la carte À propos
+            if (aboutCardView != null) {
+                aboutCardView.setOnClickListener(v -> {
+                    try {
+                        if (getActivity() != null) {
+                            Intent aboutIntent = new Intent(getActivity(), AboutActivity.class);
+                            startActivity(aboutIntent);
+                        }
+                    } catch (Exception e) {
+                        // Ignorer les erreurs pour éviter les crashs
+                    }
+                });
             }
         } catch (Exception e) {
             // Capturer toutes les exceptions pour éviter les crashes

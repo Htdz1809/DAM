@@ -80,15 +80,6 @@ public class ExploreFragment extends Fragment implements WilayaAdapter.OnWilayaC
             getString(R.string.wilaya_annaba_desc_en),
             getString(R.string.wilaya_annaba_desc_ar),
             R.drawable.ic_annaba));
-
-
-
-        wilayaList.add(new Wilaya(
-            getString(R.string.wilaya_tlemcen),
-            getString(R.string.wilaya_tlemcen_ar),
-            getString(R.string.wilaya_tlemcen_desc_en),
-            getString(R.string.wilaya_tlemcen_desc_ar),
-            R.drawable.ic_tlemcen));
     }
 
     @Override
